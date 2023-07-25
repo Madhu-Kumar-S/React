@@ -41,6 +41,7 @@ function ListRendering() {
 
     // can use unique id as key by passing from parent to child element
     const personList = persons.map((person) => <Person key={person.id} person={person}/> )
+    // will return <div> <div1>I am...</div1> <div2>I am....</div2> etc <div>
     return <div>{personList}</div>
 }
 
