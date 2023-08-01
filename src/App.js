@@ -43,6 +43,10 @@ import ClickCounterRP from './components/ReactProps/ClickCounterRP';
 import HoverCounterRP from './components/ReactProps/HoverCounterRP';
 import User from './components/ReactProps/User';
 import CounterRP from './components/ReactProps/CounterRP';
+import ComponentC from './components/Context/ComponentC';
+import { UserProvider } from './components/Context/UserContext';
+import PostList from './components/ReactHTTP/PostList';
+import PostForm from './components/ReactHTTP/PostForm';
 
 class App extends Component {
   render() {
@@ -133,6 +137,23 @@ class App extends Component {
             <HoverCounterRP count={count} incrementCount={incrementCount} />
           )}
         /> */}
+
+        {/* step 2 */}
+        {/* <UserProvider value="Vishwas">
+          <ComponentC />
+        </UserProvider> */}
+
+        {/* <PostList />
+        <PostForm /> */}
+
+
+
+
+
+
+
+
+
 
       </div>
     );
